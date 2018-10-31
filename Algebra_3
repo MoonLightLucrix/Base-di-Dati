@@ -1,5 +1,0 @@
-a1)
-R1 = π Evento.id (σ data≥'2009-10-15'∧data≤'2009-10-20' (Evento))
-R2 = δ idevento ← id (R1)
-R3 = δ id ← π Partecipante.idpersona((Partecipante) - (R2))
-π Persona.Nome, Persona.Cognome ((Persona) ⋉ (R3))
