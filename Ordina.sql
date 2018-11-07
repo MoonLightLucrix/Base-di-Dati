@@ -1,4 +1,4 @@
---Creare un vincolo di integrità che eviti che i minorenni siano sposati o vedovi--
+--Creare un vincolo di integrità che eviti che i minorenni siano sposati o vedovi
 
 DELIMITER $$
 CREATE TRIGGER `Ordina` BEFORE INSERT ON `Persona` FOR EACH ROW BEGIN
